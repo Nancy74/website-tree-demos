@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Diana Calloway Counsellor</title>
+  <meta name="description" content="Get in touch with Diana Calloway – book a free 20-minute consultation or ask a question about counselling in South London." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Diana Calloway</a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+          <span class="theme-toggle__icon theme-toggle__sun">☀</span>
+          <span class="theme-toggle__icon theme-toggle__moon">☽</span>
+        </button>
+        <a href="contact.html" class="btn btn--nav">Book a Call</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero__content reveal">
+      <span class="section-label">Get in Touch</span>
+      <h1>Let's begin<br><em>with a conversation.</em></h1>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact section">
+    <div class="container contact__grid">
+
+      <!-- FORM -->
+      <div class="contact__form-wrap reveal">
+        <h2>Send me a message</h2>
+        <p class="contact__form-intro">All enquiries are responded to within 48 hours. Everything you share is held in confidence.</p>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="First name is fine" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="hello@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="+44 7700 000000" />
+          </div>
+          <div class="form-group">
+            <label for="reason">What brings you here?</label>
+            <select id="reason" name="reason">
+              <option value="" disabled selected>Please select…</option>
+              <option>Anxiety or stress</option>
+              <option>Grief or loss</option>
+              <option>Depression or low mood</option>
+              <option>Relationships</option>
+              <option>Trauma</option>
+              <option>Life transition</option>
+              <option>Identity or belonging</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">A little about what you're looking for</label>
+            <textarea id="message" name="message" rows="5" placeholder="There's no wrong way to start…"></textarea>
+          </div>
+          <div class="form-group form-group--check">
+            <label class="checkbox-label">
+              <input type="checkbox" name="consent" required />
+              <span>I understand this message will be read only by Diana and handled with full confidentiality.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-note">Or email directly: <a href="mailto:hello@dianacalloway.co.uk">hello@dianacalloway.co.uk</a></p>
+        </form>
+      </div>
+
+      <!-- SIDEBAR INFO -->
+      <div class="contact__info reveal reveal--right">
+        <div class="contact-info-block">
+          <h3>Free Consultation</h3>
+          <p>Not sure if therapy is right for you, or if we're the right fit? Book a free 20-minute phone call — no commitment, just a conversation.</p>
+        </div>
+        <div class="contact-info-block">
+          <h3>Location</h3>
+          <p>In-person sessions:<br><strong>Herne Hill, South London SE24</strong><br>5 minutes from Herne Hill station</p>
+          <p>Online sessions available UK-wide via secure video.</p>
+        </div>
+        <div class="contact-info-block">
+          <h3>Hours</h3>
+          <p>Monday – Friday: 9am – 7pm<br>Saturday: 9am – 1pm (online only)</p>
+        </div>
+        <div class="contact-info-block">
+          <h3>Response Time</h3>
+          <p>I aim to respond to all enquiries within 48 hours. If you are in crisis, please contact <a href="https://www.samaritans.org" target="_blank">Samaritans</a> on 116 123.</p>
+        </div>
+        <div class="contact-info-block contact-info-block--bacp">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/BACP_Logo.svg/200px-BACP_Logo.svg.png" alt="BACP Registered Member" class="bacp-logo" onerror="this.style.display='none'" />
+          <p><strong>BACP Registered Member</strong><br>Membership No. 000000</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="footer__logo">Diana Calloway</span>
+        <p>Integrative Counsellor &amp; Psychotherapist<br>BACP Registered · South London</p>
+      </div>
+      <div class="footer__links">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>hello@dianacalloway.co.uk</p>
+        <p>South London &amp; Online UK-wide</p>
+        <p>Mon–Fri, 9am–7pm</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Diana Calloway Counselling. All rights reserved. BACP Registered Member.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

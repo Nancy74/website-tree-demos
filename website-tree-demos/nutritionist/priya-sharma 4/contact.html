@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Priya Sharma Nutritionist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Priya Sharma</a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-toggle__sun">☀</span>
+          <span class="theme-toggle__moon">☽</span>
+        </button>
+        <a href="contact.html" class="btn btn--nav">Free Discovery Call</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="inner-hero">
+    <div class="inner-hero__bg">
+      <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=1600&q=80" alt="" />
+      <div class="inner-hero__overlay"></div>
+    </div>
+    <div class="container inner-hero__content">
+      <div class="inner-hero__text reveal">
+        <span class="section-label section-label--light">Get in touch</span>
+        <h1>Let's start the<br><em>conversation.</em></h1>
+        <p>Book your free 20-minute discovery call, or send a message. I'll reply within 48 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section">
+    <div class="container contact__grid">
+
+      <div class="contact__form-col reveal">
+        <h2>Send a message</h2>
+        <p class="contact__sub">All messages are read personally by Priya and handled in strict confidence.</p>
+        <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="First name is fine" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest">
+              <option value="" disabled selected>Select a topic…</option>
+              <option>Gut health &amp; IBS</option>
+              <option>Hormonal health / PCOS</option>
+              <option>Weight management</option>
+              <option>Fertility &amp; prenatal</option>
+              <option>Sports nutrition</option>
+              <option>Energy &amp; fatigue</option>
+              <option>Disordered eating support</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me a little about what brings you here</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's going on? What have you tried? What does success look like for you?"></textarea>
+          </div>
+          <div class="form-group form-check">
+            <label class="check-label">
+              <input type="checkbox" name="consent" required />
+              <span>I'm happy for Priya to contact me. My information will be handled confidentially.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-direct">Or email: <a href="mailto:hello@priyasharma.co.uk">hello@priyasharma.co.uk</a></p>
+        </form>
+      </div>
+
+      <div class="contact__info-col reveal reveal--right">
+        <div class="contact-info-block">
+          <div class="cib-icon">📞</div>
+          <h3>Free discovery call</h3>
+          <p>A relaxed 20-minute call to discuss your goals. No obligation, no sales pitch — genuinely just a conversation.</p>
+        </div>
+        <div class="contact-info-block">
+          <div class="cib-icon">📍</div>
+          <h3>Location</h3>
+          <p><strong>In person:</strong> North London, N1 (near Angel)</p>
+          <p><strong>Online:</strong> Secure video, UK-wide</p>
+        </div>
+        <div class="contact-info-block">
+          <div class="cib-icon">🕐</div>
+          <h3>Hours</h3>
+          <p>Monday–Friday: 9am–6pm<br>Occasional Saturday mornings</p>
+        </div>
+        <div class="contact-info-block contact-info-block--food">
+          <img src="https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=600&h=360&q=80&fit=crop" alt="" />
+          <div class="cib-food-text">
+            <strong>Not sure where to start?</strong>
+            <p>The free call is genuinely the easiest first step.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="footer__logo">Priya Sharma</span>
+        <p>Registered Nutritionist (ANutr)<br>UKVRN Registered · London &amp; Online</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>hello@priyasharma.co.uk</p>
+        <p>North London &amp; Online UK-wide</p>
+        <p>Mon–Fri, 9am–6pm</p>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2026 Priya Sharma Nutrition. ANutr Registered.</p>
+      <p>Dietary advice is personalised. Consult your GP for medical concerns.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

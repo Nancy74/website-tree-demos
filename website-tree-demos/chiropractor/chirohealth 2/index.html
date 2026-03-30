@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ChiroHealth — Premium chiropractic care in London. Spinal adjustments, sports rehabilitation, posture correction. Book your consultation today.">
+    <meta name="keywords" content="chiropractor, chiropractic, spinal adjustment, back pain, neck pain, London chiropractor, wellness">
+    <meta name="author" content="ChiroHealth">
+    <title>ChiroHealth — Premium Chiropractic Care</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">
+                    <span class="logo-icon"><svg width="30" height="30" viewBox="0 0 32 32" fill="none"><path d="M16 2C16 2 10 8 10 16C10 24 16 30 16 30C16 30 22 24 22 16C22 8 16 2 16 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="10" r="2" fill="currentColor"/><circle cx="16" cy="16" r="2" fill="currentColor"/><circle cx="16" cy="22" r="2" fill="currentColor"/></svg></span>
+                    <span class="logo-text">Chiro<strong>Health</strong></span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#blog" class="nav-link">Journal</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="bi bi-sun-fill theme-icon-light"></i>
+                        <i class="bi bi-moon-fill theme-icon-dark"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary nav-cta">Book Consultation</a>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO — Full-width background image with overlay -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg" style="background-image: url('img/hero-bg.png');"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge"><i class="bi bi-shield-check"></i> GCC Registered Practice</span>
+                <h1 class="hero-title">Where Healing<br>Meets <em>Wellbeing</em></h1>
+                <p class="hero-text">Premium chiropractic care in a calm, restorative environment. We combine expert hands-on treatment with a holistic approach to help you live without pain.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-calendar-check"></i> Book Your Visit</a>
+                    <a href="tel:+442012345678" class="btn btn-ghost btn-lg"><i class="bi bi-telephone"></i> 020 2234 5668</a>
+                </div>
+                <div class="hero-trust">
+                    <div class="hero-trust-item"><strong>15+</strong> Years Experience</div>
+                    <div class="hero-trust-divider"></div>
+                    <div class="hero-trust-item"><strong>5,000+</strong> Patients</div>
+                    <div class="hero-trust-divider"></div>
+                    <div class="hero-trust-item"><strong>4.9</strong> <i class="bi bi-star-fill"></i> Google</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRO STRIP — 3 pillars -->
+    <section class="intro-strip">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-item">
+                    <div class="intro-icon"><i class="bi bi-patch-check"></i></div>
+                    <h4>GCC Registered</h4>
+                    <p>All practitioners registered with the General Chiropractic Council.</p>
+                </div>
+                <div class="intro-item">
+                    <div class="intro-icon"><i class="bi bi-heart-pulse"></i></div>
+                    <h4>Holistic Approach</h4>
+                    <p>We treat the whole person, not just the symptoms.</p>
+                </div>
+                <div class="intro-item">
+                    <div class="intro-icon"><i class="bi bi-clock-history"></i></div>
+                    <h4>Unhurried Sessions</h4>
+                    <p>Extended appointment times so you never feel rushed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT — Split with image -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper"><img src="img/calm-room.png" alt="Calm chiropractic treatment room" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"></div>
+                    <div class="about-badge"><span class="badge-number">15+</span><span class="badge-text">Years of<br>Excellence</span></div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Our Philosophy</span>
+                    <h2 class="section-title">A Calmer Approach to Chiropractic Care</h2>
+                    <p>At ChiroHealth, we believe that healing starts with feeling heard. From the moment you walk through our doors, you'll experience a practice designed around your comfort and recovery.</p>
+                    <p>Our GCC-registered chiropractors combine precise manual techniques with a deep understanding of how your body moves, rests and heals. Every treatment plan is built around you — your condition, your lifestyle, your goals.</p>
+                    <div class="about-features">
+                        <div class="about-feature"><i class="bi bi-check2-circle"></i><span>Evidence-based treatment protocols</span></div>
+                        <div class="about-feature"><i class="bi bi-check2-circle"></i><span>Extended 45-minute initial consultations</span></div>
+                        <div class="about-feature"><i class="bi bi-check2-circle"></i><span>Private, comfortable treatment rooms</span></div>
+                        <div class="about-feature"><i class="bi bi-check2-circle"></i><span>Same-week availability for new patients</span></div>
+                    </div>
+                    <a href="#services" class="btn btn-primary"><i class="bi bi-arrow-right"></i> Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">What We Offer</span><h2 class="section-title">Our Chiropractic Services</h2><p class="section-subtitle">Thoughtful, expert care across a full range of chiropractic and musculoskeletal treatments.</p></div>
+            <div class="services-grid">
+                <div class="service-card"><div class="service-icon"><i class="bi bi-activity"></i></div><h3>Spinal Adjustment</h3><p>Precise, gentle adjustments to restore alignment, ease nerve pressure and relieve pain throughout the spine.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+                <div class="service-card"><div class="service-icon"><i class="bi bi-lightning-fill"></i></div><h3>Sports Chiropractic</h3><p>Specialist care for athletes — from weekend runners to professionals — treating injuries and optimising performance.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+                <div class="service-card"><div class="service-icon"><i class="bi bi-person-standing"></i></div><h3>Posture Correction</h3><p>Thorough postural analysis and treatment for imbalances caused by desk work, driving and modern lifestyles.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+                <div class="service-card"><div class="service-icon"><i class="bi bi-bandaid-fill"></i></div><h3>Back &amp; Neck Pain</h3><p>Expert diagnosis and hands-on treatment for chronic and acute back pain, stiff necks and tension headaches.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+                <div class="service-card"><div class="service-icon"><i class="bi bi-arrow-repeat"></i></div><h3>Rehabilitation</h3><p>Guided recovery programmes combining manual therapy with tailored exercises to rebuild strength after injury.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+                <div class="service-card"><div class="service-icon"><i class="bi bi-clipboard2-pulse"></i></div><h3>Wellness Programmes</h3><p>Ongoing preventative care designed to maintain spinal health, improve mobility and support long-term wellbeing.</p><a href="#contact" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARALLAX CTA BAND -->
+    <section class="cta-band">
+        <div class="cta-band-overlay"></div>
+        <div class="cta-band-bg" style="background-image: url('img/parallax.jpeg');"></div>        <div class="container">
+            <div class="cta-band-content">
+                <h2>Your Journey to Better Health Starts Here</h2>
+                <p>Book your initial consultation today and take the first step towards living without pain.</p>
+                <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-calendar-check"></i> Book Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team section" id="team">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Our Team</span><h2 class="section-title">Meet Your Chiropractors</h2><p class="section-subtitle">Experienced, GCC-registered practitioners who genuinely care about your recovery.</p></div>
+            <div class="team-grid">
+                <div class="team-card"><div class="team-image"><img src="img/team1.jpg" alt="Dr Peter Freyer" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><div class="team-overlay"><div class="team-socials"><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-twitter-x"></i></a></div></div></div><div class="team-info"><h3>Dr Peter Freyer</h3><span class="team-role">Lead Chiropractor, DC</span><p>Specialist in spinal biomechanics with over 15 years of clinical experience.</p></div></div>
+                <div class="team-card"><div class="team-image"><img src="img/team2.jpg" alt="Dr Sarah Chen" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><div class="team-overlay"><div class="team-socials"><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-twitter-x"></i></a></div></div></div><div class="team-info"><h3>Dr Nancy Chen</h3><span class="team-role">Senior Chiropractor, DC</span><p>Focused on pregnancy and paediatric chiropractic care with a gentle approach.</p></div></div>
+                <div class="team-card"><div class="team-image"><img src="img/team3.jpg" alt="Dr Marcus Obi" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><div class="team-overlay"><div class="team-socials"><a href="#"><i class="bi bi-linkedin"></i></a><a href="#"><i class="bi bi-twitter-x"></i></a></div></div></div><div class="team-info"><h3>Dr Shamir Obi</h3><span class="team-role">Chiropractor, DC</span><p>Rehabilitation specialist with a passion for exercise-based recovery programmes.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Patient Reviews</span><h2 class="section-title">Trusted by Thousands</h2><p class="section-subtitle">Real words from real patients about their experience at ChiroHealth.</p></div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card"><div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="testimonial-text">"The whole experience feels different here. It's calm, unhurried, and they actually listen. My back pain is finally under control after years of suffering."</p><div class="testimonial-author"><div class="author-avatar">RL</div><div><strong>Rachel Lewis</strong><span>Patient since 2022</span></div></div></div>
+                <div class="testimonial-card featured"><div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="testimonial-text">"Dr Mitchell's sports chiropractic work has transformed my running. I went from constant niggles to a new PB. The environment is beautiful too — nothing like a typical clinic."</p><div class="testimonial-author"><div class="author-avatar">DP</div><div><strong>David Patel</strong><span>Patient since 2021</span></div></div></div>
+                <div class="testimonial-card"><div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="testimonial-text">"Dr Chen was wonderful throughout my pregnancy. Gentle, reassuring, and incredibly knowledgeable. I've recommended ChiroHealth to every mum I know."</p><div class="testimonial-author"><div class="author-avatar">EW</div><div><strong>Emma Whitfield</strong><span>Patient since 2023</span></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="faq-layout">
+                <div class="faq-left">
+                    <span class="section-tag">FAQ</span>
+                    <h2 class="section-title">Common Questions</h2>
+                    <p>Everything you need to know before your first visit. If your question isn't answered here, please don't hesitate to get in touch.</p>
+                    <a href="#contact" class="btn btn-outline"><i class="bi bi-chat-dots"></i> Ask a Question</a>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item active"><button class="faq-question" aria-expanded="true"><span>What happens at my first appointment?</span><i class="bi bi-plus-lg"></i></button><div class="faq-answer"><p>Your 45-minute initial consultation includes a detailed health history, physical examination, posture assessment and spinal analysis. We'll explain our findings clearly and discuss a personalised treatment plan before any treatment begins.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Is chiropractic treatment safe?</span><i class="bi bi-plus-lg"></i></button><div class="faq-answer"><p>Yes — chiropractic is widely recognised as one of the safest drug-free, non-invasive therapies available. All our practitioners are registered with the General Chiropractic Council and maintain the highest clinical standards.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Do I need a GP referral?</span><i class="bi bi-plus-lg"></i></button><div class="faq-answer"><p>No referral is needed — you can book directly with us. If you're claiming through private health insurance, please check with your provider as some may require a referral for cover.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>How many sessions will I need?</span><i class="bi bi-plus-lg"></i></button><div class="faq-answer"><p>This depends on your condition. Many patients notice improvement within 3–6 sessions. We'll give you an honest estimate after your assessment and never recommend treatment you don't need.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" aria-expanded="false"><span>Which insurers do you accept?</span><i class="bi bi-plus-lg"></i></button><div class="faq-answer"><p>We're registered with Bupa, AXA PPP, Aviva, Vitality, WPA and most other major private health insurers. Please bring your policy details to your first appointment.</p></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG / JOURNAL -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Journal</span><h2 class="section-title">Health &amp; Wellness Insights</h2><p class="section-subtitle">Expert guidance from our team to help you understand your body and live well.</p></div>
+            <div class="blog-grid">
+                <article class="blog-card"><div class="blog-image"><img src="../img/blog1.jpg" alt="Gentle stretching" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><span class="blog-date">15 Feb 2026</span></div><div class="blog-content"><h4><a href="#">5 Gentle Stretches for a Healthier Spine</a></h4><p>Simple daily movements to release tension and support spinal health between appointments.</p><a href="#" class="blog-read-more">Read Article <i class="bi bi-arrow-right"></i></a></div></article>
+                <article class="blog-card"><div class="blog-image"><img src="../img/blog2.jpg" alt="Running outdoors" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><span class="blog-date">08 Feb 2026</span></div><div class="blog-content"><h4><a href="#">Why Athletes Trust Chiropractic Care</a></h4><p>How regular adjustments can improve performance, prevent injury and accelerate recovery.</p><a href="#" class="blog-read-more">Read Article <i class="bi bi-arrow-right"></i></a></div></article>
+                <article class="blog-card"><div class="blog-image"><img src="../img/blog3.jpg" alt="Mindful wellness" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');"><span class="blog-date">01 Feb 2026</span></div><div class="blog-content"><h4><a href="#">The Connection Between Posture &amp; Wellbeing</a></h4><p>How your posture affects far more than your back — from breathing to energy levels.</p><a href="#" class="blog-read-more">Read Article <i class="bi bi-arrow-right"></i></a></div></article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Get in Touch</span><h2 class="section-title">Book Your Consultation</h2><p class="section-subtitle">Ready to start feeling better? We'd love to hear from you.</p></div>
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <div class="contact-item"><div class="contact-icon"><i class="bi bi-geo-alt"></i></div><div><h4>Visit Us</h4><p>12 Emerald Street<br>London, SE1 1AA</p></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="bi bi-telephone"></i></div><div><h4>Call Us</h4><p><a href="tel:+442012345678">020 2234 5668</a></p></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="bi bi-envelope"></i></div><div><h4>Email</h4><p><a href="mailto:hello@chirohealth.co.uk">hello@chirohealth.co.uk</a></p></div></div>
+                    <div class="contact-item"><div class="contact-icon"><i class="bi bi-clock"></i></div><div><h4>Opening Hours</h4><p>Mon–Fri: 8am – 7pm<br>Sat: 9am – 2pm<br>Sun: Closed</p></div></div>
+                    <div class="contact-insurance"><i class="bi bi-shield-check"></i><p>We accept <strong>Bupa</strong>, <strong>AXA PPP</strong>, <strong>Aviva</strong>, <strong>Vitality</strong> and other major insurers.</p></div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Request an Appointment</h3>
+                    <form class="contact-form" id="contactForm" action="#" method="POST">
+                        <div class="form-row"><div class="form-group"><input type="text" name="firstName" required placeholder="First Name *"></div><div class="form-group"><input type="text" name="lastName" required placeholder="Last Name *"></div></div>
+                        <div class="form-row"><div class="form-group"><input type="email" name="email" required placeholder="Email *"></div><div class="form-group"><input type="tel" name="phone" required placeholder="Phone *"></div></div>
+                        <div class="form-group"><select name="service"><option value="">Select a service...</option><option value="initial">Initial Consultation (£65)</option><option value="followup">Follow-Up Treatment (£45)</option><option value="sports">Sports Chiropractic</option><option value="posture">Posture Assessment</option><option value="wellness">Wellness Programme</option><option value="other">Other / Not Sure</option></select></div>
+                        <div class="form-group"><textarea name="message" rows="4" placeholder="Tell us a little about what's troubling you..."></textarea></div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg"><i class="bi bi-send"></i> Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo"><span class="logo-icon"><svg width="26" height="26" viewBox="0 0 32 32" fill="none"><path d="M16 2C16 2 10 8 10 16C10 24 16 30 16 30C16 30 22 24 22 16C22 8 16 2 16 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="10" r="2" fill="currentColor"/><circle cx="16" cy="16" r="2" fill="currentColor"/><circle cx="16" cy="22" r="2" fill="currentColor"/></svg></span><span class="logo-text">Chiro<strong>Health</strong></span></a>
+                    <p>Premium chiropractic care in London. Helping you live well since 2009.</p>
+                    <div class="footer-socials"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-twitter-x"></i></a><a href="#"><i class="bi bi-linkedin"></i></a></div>
+                </div>
+                <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#team">Team</a></li><li><a href="#blog">Journal</a></li><li><a href="#contact">Contact</a></li></ul></div>
+                <div class="footer-links"><h4>Our Services</h4><ul><li><a href="#services">Spinal Adjustment</a></li><li><a href="#services">Sports Chiropractic</a></li><li><a href="#services">Posture Correction</a></li><li><a href="#services">Back &amp; Neck Pain</a></li><li><a href="#services">Rehabilitation</a></li><li><a href="#services">Wellness Programmes</a></li></ul></div>
+                <div class="footer-contact"><h4>Contact</h4><ul><li><i class="bi bi-geo-alt"></i> 12 Emerald Street, London SE1 1AA</li><li><i class="bi bi-telephone"></i> <a href="tel:+442012345678">020 2234 5668</a></li><li><i class="bi bi-envelope"></i> <a href="mailto:hello@chirohealth.co.uk">hello@chirohealth.co.uk</a></li><li><i class="bi bi-clock"></i> Mon–Fri: 8am–7pm | Sat: 9am–2pm</li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 ChiroHealth. WEBSITE TREE</p><div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookies</a></div></div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-chevron-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>

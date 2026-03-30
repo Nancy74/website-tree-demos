@@ -1,0 +1,93 @@
+# Priya Sharma — Image Swap Guide
+# All images live in the /img/ folder
+# Replace each file below with your own — keep the exact same filename
+
+=============================================================
+ FILENAME              USED ON          WHAT IT SHOWS
+=============================================================
+
+priya-portrait.jpg     All pages        Priya's headshot
+                                        • Used as circle portrait in hero
+                                        • Used on About page (tall portrait)
+                                        • Used in about strip on homepage
+                                        CROP TIP: works best portrait
+                                        orientation, face/shoulders centred,
+                                        at least 600×700px
+
+hero-bg.jpg            Home page        Full-bleed hero background
+                                        Food image — colourful, warm tones
+                                        AT LEAST 1400px wide
+                                        Landscape orientation
+
+about-bg.jpg           Home page        Background behind the About strip
+                                        section (green overlay applied on top)
+                                        Food spread / tablescape works well
+                                        AT LEAST 1400px wide
+
+food-salad.jpg         Home, Services   Colourful salad or veg bowl
+                                        Used in scrolling strip + Instagram grid
+
+food-smoothie.jpg      Home, Services,  Pink/colourful smoothie or drink
+                       About, Contact   Also used for Hormonal Health card
+                                        + Services page hero background
+
+food-bowl.jpg          Home, Services   Buddha bowl / grain bowl
+                                        Used in scrolling strip + Services CTA
+
+food-fruit.jpg         Home             Fruit spread or colourful produce
+                                        Scrolling strip + Weight Management card
+
+food-veg.jpg           Home, About,     Fresh vegetables / greens
+                       Services         Fertility card + Services specialism
+
+food-grains.jpg        Home, Services   Meal prep / grains / legumes
+                                        Scrolling strip + Single Consultation card
+
+food-protein.jpg       Home             Fish / eggs / lean protein
+                                        Scrolling strip + Instagram grid
+
+food-greens.jpg        Home             Leafy greens / kale / spinach
+                                        Scrolling strip + Instagram grid
+
+food-gut.jpg           Home, Services   Fermented foods / yoghurt / kimchi
+                                        Gut Health card (home + services)
+
+food-floral.jpg        Home, Services,  Floral/colourful food or flowers
+                       Contact          Contact page hero + Instagram grid
+                                        This is your most "Instagram-feel" image
+                                        — make it beautiful
+
+=============================================================
+ TIPS FOR BEST RESULTS
+=============================================================
+
+• Minimum size: 800px wide for most images, 1400px+ for heroes
+• Format: JPG is fine (smaller file size), WebP even better
+• Keep filenames EXACTLY as listed above (lowercase, hyphens)
+• Shoot or source on a warm cream/white background where possible
+  to match the site palette
+• The site uses object-fit:cover so images crop automatically —
+  put the most important content centred
+
+=============================================================
+ HOW TO SWAP (3 steps)
+=============================================================
+
+1. Name your image exactly as listed (e.g. priya-portrait.jpg)
+2. Drop it into the /img/ folder (replacing any placeholder)
+3. Reload the page — done. No code changes needed.
+
+=============================================================
+ INSTAGRAM GRID (homepage)
+=============================================================
+
+The 5 Instagram-style tiles use these images:
+  Tile 1 → food-salad.jpg
+  Tile 2 → food-smoothie.jpg
+  Tile 3 → food-protein.jpg
+  Tile 4 → food-greens.jpg
+  Tile 5 → food-floral.jpg
+
+These are your most visible "Instagram-feel" slots.
+Use your best, most visually striking food or lifestyle photos here.
+Square crop (1:1) works best.

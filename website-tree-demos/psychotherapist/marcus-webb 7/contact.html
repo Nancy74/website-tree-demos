@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Marcus Webb Psychotherapist</title>
+  <meta name="description" content="Get in touch with Marcus Webb – book a free consultation or ask a question about psychotherapy in London or online." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-first">Marcus</span>
+        <span class="nav__logo-last">Webb</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+      </ul>
+      <div class="nav__right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-toggle__sun">☀</span>
+          <span class="theme-toggle__moon">☽</span>
+        </button>
+        <a href="contact.html" class="btn btn--nav">Begin →</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero page-hero--short">
+    <div class="page-hero__inner">
+      <p class="page-hero__kicker reveal">Contact</p>
+      <h1 class="page-hero__heading reveal">Say hello.<br><em>It's a good place to start.</em></h1>
+    </div>
+  </section>
+
+  <section class="contact section">
+    <div class="container contact__grid">
+
+      <div class="contact__form-col reveal">
+        <h2 class="contact__form-heading">Send a message</h2>
+        <p class="contact__form-sub">I read every message personally and reply within 48 hours. Everything is held in confidence.</p>
+        <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your first name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone <span class="opt">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="+44 7700 000000" />
+          </div>
+          <div class="form-group">
+            <label for="reason">What brings you here?</label>
+            <select id="reason" name="reason">
+              <option value="" disabled selected>Select an area…</option>
+              <option>Anxiety or panic</option>
+              <option>Depression or low mood</option>
+              <option>Trauma or PTSD</option>
+              <option>Relationship difficulties</option>
+              <option>Identity or meaning</option>
+              <option>Burnout or work stress</option>
+              <option>Grief or loss</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">A little about what you're looking for</label>
+            <textarea id="message" name="message" rows="5" placeholder="No wrong way to start…"></textarea>
+          </div>
+          <div class="form-group form-check">
+            <label class="check-label">
+              <input type="checkbox" name="consent" required />
+              <span>I understand that this message will only be read by Marcus and held with full confidentiality.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-direct">Or email directly: <a href="mailto:hello@marcuswebb.co.uk">hello@marcuswebb.co.uk</a></p>
+        </form>
+      </div>
+
+      <div class="contact__info-col reveal reveal--right">
+        <div class="info-block">
+          <h3>Free consultation</h3>
+          <p>Before we begin, I offer a free 20-minute phone call. No agenda — just a chance to talk about what you're going through and whether working together feels like a fit.</p>
+        </div>
+        <div class="info-block">
+          <h3>Location</h3>
+          <p><strong>London Bridge</strong><br>SE1, 3 minutes from London Bridge station<br>Full address on booking confirmation</p>
+        </div>
+        <div class="info-block">
+          <h3>Online sessions</h3>
+          <p>Available UK-wide via secure video. Same quality of care — many clients prefer it.</p>
+        </div>
+        <div class="info-block">
+          <h3>Hours</h3>
+          <p>Mon–Fri: 8am–7pm<br>Saturdays available on request</p>
+        </div>
+        <div class="info-block info-block--crisis">
+          <h3>In crisis?</h3>
+          <p>If you need immediate support, please contact <a href="https://www.samaritans.org" target="_blank" rel="noopener">Samaritans</a> on 116 123 (free, 24/7) or visit your nearest A&amp;E.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Marcus Webb</span>
+        <p>UKCP Registered Psychotherapist<br>London Bridge &amp; Online · Est. 2012</p>
+      </div>
+      <div class="footer__nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services &amp; Fees</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>hello@marcuswebb.co.uk</p>
+        <p>London Bridge, SE1 &amp; Online</p>
+        <p>Mon–Fri, 9am–7pm</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Marcus Webb Psychotherapy. UKCP Registered.</p>
+        <p>Supervision provided. All sessions confidential.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
